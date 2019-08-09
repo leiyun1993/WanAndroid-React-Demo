@@ -1,0 +1,23 @@
+{
+  "name": "wanandroid-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.21.1",
+    "axios": "^0.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "0.9.5",
+    "react-visibility-sensor": "^5.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "https://www.wanandroid.com"
+}
