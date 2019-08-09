@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Menu, Icon, Layout } from "antd";
+import { Menu, Layout } from "antd";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import { browserHistory } from 'react-router'
 const { Header, Content, Footer } = Layout;
 import Home from "../src/page/home/Home";
 import System from "../src/page/system/System";
