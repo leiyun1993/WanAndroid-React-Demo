@@ -121,7 +121,7 @@ getBanner() {
   }
 }
 ```
-第二种方式需要在请求路径加** /api **,如下
+第二种方式需要在请求路径加**/api**,如下
 ```javascript
 export function _banner() {
     return api.get("/api/banner/json");
